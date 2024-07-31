@@ -1,5 +1,5 @@
 <template>
-  <a href="https://github.com/girlspowertech/" class="footer absolute bottom-3 left-0 justify-center w-full m-auto flex items-end text-sm text-black">
+  <a href="https://github.com/girlspowertech/" class="footer no-underline absolute bottom-3 left-0 justify-center w-full m-auto flex items-end text-sm text-black">
     <svg class="w-6 h-6 mr-2 fill-current" width="1172" height="1196" viewBox="0 0 1172 1196" fill="current"
       stroke="current" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0_22_41)">
@@ -32,6 +32,10 @@ export default {
 
 .footer {
   font-family: 'fanwood', sans-serif;
+}
+
+a.footer {
+  border: none;
 }
 
 </style>
